@@ -59,9 +59,9 @@ def write(rel, title, body, desc):
 write('pmconsole/privacy/index.html', 'PM Console Privacy Policy',
       md((ROOT / 'src/pmconsole-privacy.md').read_text()), 'How PM Console handles your information: it collects none.')
 write('pmconsole/support/index.html', 'PM Console Support',
-      md((ROOT / 'src/pmconsole-support.md').read_text()), 'Help and contact for PM Console, the Mac app for product portfolio planning.')
+      md((ROOT / 'src/pmconsole-support.md').read_text()), 'Help and contact for PM Console, the app for product portfolio planning.')
 write('pmconsole/index.html', 'PM Console', md((ROOT / 'src/pmconsole.md').read_text()),
-      'PM Console: roadmap, funding requests, finances, and people capacity for product managers, in one Mac app.')
+      'PM Console: roadmap, funding requests, finances, and people capacity for product managers, in one app.')
 write('index.html', 'Brainwave Labs', md((ROOT / 'src/home.md').read_text()), 'Brainwave Labs makes software for people who plan and run products.')
 write('404.html', 'Page not found', '<h1>Page not found</h1>\n<p>That page doesn\'t exist. Try the <a href="/">home page</a>.</p>', 'Page not found')
 print('built')

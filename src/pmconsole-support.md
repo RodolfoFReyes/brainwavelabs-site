@@ -1,6 +1,6 @@
 # PM Console Support
 
-PM Console is a Mac app for planning a product portfolio: the roadmap, the money, and the people doing the work, all in one place.
+PM Console is an app for planning a product portfolio: the roadmap, the money, and the people doing the work, all in one place.
 
 ## Getting help
 
@@ -8,7 +8,7 @@ PM Console is a Mac app for planning a product portfolio: the roadmap, the money
 
 **Still stuck, or found a problem?** Email support@brainwavelabs.app. Please include:
 - What you were trying to do, and what happened instead.
-- Your PM Console version (in the menu bar, **PM Console > About PM Console**) and your macOS version.
+- Your PM Console version and your device and its system version (on a Mac: **PM Console > About PM Console** in the menu bar, and **Apple menu > About This Mac**).
 - A screenshot, if it helps.
 
 We aim to reply within two business days.
@@ -16,10 +16,10 @@ We aim to reply within two business days.
 ## Common questions
 
 **Where is my data stored?**
-On your Mac, in the app's data folder. You can see or change the folder in **Settings > Data folder**. Nothing is sent to us.
+On your device, in the app's data folder. You can see or change the folder in **Settings > Data folder**. Nothing is sent to us.
 
-**How do I back up or move my data to another Mac?**
-In **Settings > Backups**, click **Back up now...** and save the file. On the other Mac, open PM Console, go to **Settings > Backups**, and click **Restore from backup...**. The app also makes an automatic backup once a day and keeps the last 10.
+**How do I back up or move my data to another computer?**
+In **Settings > Backups**, click **Back up now...** and save the file. On the other computer, open PM Console, go to **Settings > Backups**, and click **Restore from backup...**. The app also makes an automatic backup once a day and keeps the last 10.
 
 **I deleted something by mistake. Can I get it back?**
 Yes, from a backup. In **Settings > Backups**, click **Restore** next to an automatic backup from before the change. The app saves your current data first, so restoring can be undone.
@@ -33,8 +33,8 @@ In **Settings**, enter your Jira site address (it must start with https://), you
 **Can several people work in the same data?**
 Not at the same time. PM Console is designed for one person per data folder.
 
-**What does the app need?**
-macOS 13 or newer.
+**Which devices does it run on?**
+PM Console is available today for Mac, on macOS 13 or newer.
 
 ## Privacy
 

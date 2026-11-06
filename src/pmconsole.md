@@ -1,6 +1,6 @@
 # PM Console
 
-Plan your product portfolio in one Mac app: the roadmap, the money, and the people doing the work.
+Plan your product portfolio in one app: the roadmap, the money, and the people doing the work.
 
 - **Roadmap**: initiatives, features, milestones, risks, and a timeline you can export to Excel.
 - **Funding requests**: a guided questionnaire that turns into a memo and a financial workbook, with optional AI drafting.
@@ -8,6 +8,8 @@ Plan your product portfolio in one Mac app: the roadmap, the money, and the peop
 - **People and capacity**: who is working on what, month by month, and what the team costs.
 - **Backlog**: a flexible board for day-to-day work.
 
-Your data stays on your Mac. There is no account and nothing is sent to us.
+Your data stays on your device. There is no account and nothing is sent to us.
+
+Available today for Mac (macOS 13 or newer).
 
 [link:/pmconsole/support/|Support] &middot; [link:/pmconsole/privacy/|Privacy policy]
