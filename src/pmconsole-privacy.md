@@ -1,6 +1,10 @@
 # PM Console Privacy Policy
 
-*Last updated: November 6, 2026*
+*Last updated: November 7, 2026*
+
+> **At a glance:** we collect none of your data. There is no account, no analytics, and no tracking.
+> Everything you enter stays on your device, in a folder you can see and back up.
+> Two optional features, AI drafting (Anthropic) and Jira, send information only when you set them up and use them, directly to those services under your own account.
 
 PM Console is an app made by Brainwave Labs LLC ("we"). This policy explains what happens to your information when you use it, on any device it runs on. The short version: **we do not collect any of your data.** Everything you enter stays on your device.
 
