@@ -65,6 +65,17 @@ def md(text, faq=False):
     return '\n'.join(out)
 
 
+INSTAGRAM_URL = 'https://www.instagram.com/brainwavelabllc/'
+INSTAGRAM_HANDLE = '@brainwavelabllc'
+
+
+def instagram_glyph(size):
+    return (f'<svg class="ig" viewBox="0 0 24 24" width="{size}" height="{size}" fill="none" stroke="currentColor" '
+            'stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+            '<rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.4"/>'
+            '<circle cx="17.6" cy="6.4" r="0.6" fill="currentColor" stroke="none"/></svg>')
+
+
 def page(title, body, desc, path, product=False, image='/img/og-pmconsole.jpg', wide=False, mid=False):
     t = html.escape(title); d = html.escape(desc)
     def here(p): return ' aria-current="page"' if path == p else ''
@@ -103,7 +114,7 @@ def page(title, body, desc, path, product=False, image='/img/og-pmconsole.jpg', 
 <footer class="site">
   <div class="foot">
     <div class="foot-brand"><img src="/img/pm-icon.svg" alt="" width="20" height="20"> &copy; {YEAR} Brainwave Labs LLC</div>
-    <div><a href="/pmconsole/support/">Support</a> &middot; <a href="/pmconsole/privacy/">Privacy</a> &middot; <a href="mailto:support@brainwavelabs.app">support@brainwavelabs.app</a></div>
+    <div class="foot-links"><a href="/pmconsole/support/">Support</a> &middot; <a href="/pmconsole/privacy/">Privacy</a> &middot; <a href="mailto:support@brainwavelabs.app">support@brainwavelabs.app</a> &middot; <a class="foot-ig" href="{INSTAGRAM_URL}" rel="me noopener" target="_blank" aria-label="Brainwave Labs on Instagram">{instagram_glyph(16)}Instagram</a></div>
   </div>
 </footer>
 </body>
@@ -239,6 +250,11 @@ def home_page():
     <span class="more">Learn more &rarr;</span>
   </div>
   <div class="frame">{shot('01-dashboard', 'The PM Console Dashboard', eager=True)}</div>
+</a>
+<a class="follow-card" href="{INSTAGRAM_URL}" rel="me noopener" target="_blank">
+  <span class="follow-icon">{instagram_glyph(30)}</span>
+  <span class="follow-copy"><strong>Follow along on Instagram</strong><span>Behind the scenes, tips for people who plan products, and news about PM Console.</span></span>
+  <span class="follow-btn">{INSTAGRAM_HANDLE}</span>
 </a>'''
 
 
